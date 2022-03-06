@@ -1,0 +1,33 @@
+body {
+    background-color: #101010;
+    overflow-x: hidden;
+}
+.container {
+}
+.text {
+    position: relative;
+    top: 340px;
+    left: 400px;
+}
+.text__pogrammer {
+    color: #1c9f10;
+    font-size: 48px;
+    font-family: "PT Mono", monospace;
+    overflow-x: hidden;
+}
+@media (max-width: 767px) {
+    body {
+        background-color: #101010;
+        overflow-x: hidden;
+    }
+    .text {
+        position: relative;
+        top: 200px;
+        left: 10px;
+        overflow-x: hidden;
+    }
+    .text__pogrammer {
+        font-size: 32px;
+        overflow-x: hidden;
+    }
+}
